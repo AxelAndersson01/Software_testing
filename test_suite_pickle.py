@@ -50,8 +50,8 @@ def system_info():
 
 # Function to write results to a file
 def write_results_to_file(system_info, test_results, filename="pickle_test_results.txt"):
-    with open(filename, "w") as file:
-        file.write("System Information:\n")
+    with open(filename, "a") as file:
+        file.write("\nSystem Information:\n")
         for key, value in system_info.items():
             file.write(f"{key}: {value}\n")
         
