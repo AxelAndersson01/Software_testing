@@ -24,7 +24,11 @@ test_cases = {
     "recursive_list": lambda: None,
     "random_string": "\n",
     "bytes": bytes(15),
-    "complex": complex(1j)
+    "complex": complex(1j),
+    "unicode": "こんにちは、世界！",
+    "none_value": None,
+    "utf-8_string": "Äpple",
+    "special_characters": "!@#$%^&*()"
 }
 
 # Create recursive data structure

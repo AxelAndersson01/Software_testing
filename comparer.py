@@ -1,5 +1,5 @@
 def read_file_line_by_line(file_path):
-    data_types = ['int', 'float', 'string', 'boolean', 'list', 'dict', 'tuple', 'set', 'nested', 'custom_obj', 'recursive_list','random_string', 'bytes', 'complex']
+    data_types = ['int', 'float', 'string', 'boolean', 'list', 'dict', 'tuple', 'set', 'nested', 'custom_obj', 'recursive_list','random_string', 'bytes', 'complex', 'unicode', 'none_value', 'utf-8_string', 'special_characters']
     hash_lists = {data_type: [] for data_type in data_types}
 
     try:
@@ -27,7 +27,7 @@ hash_lists = read_file_line_by_line(file_path)
 
 def comparer(hash_lists):
     for data_type, hashes in hash_lists.items():
-        if data_type in ['int', 'float', 'string', 'boolean', 'list', 'dict', 'tuple', 'set', 'nested', 'custom_obj', 'recursive_list','random_string', 'bytes', 'complex']:
+        if data_type in ['int', 'float', 'string', 'boolean', 'list', 'dict', 'tuple', 'set', 'nested', 'custom_obj', 'recursive_list','random_string', 'bytes', 'complex', 'unicode', 'none_value', 'utf-8_string', 'special_characters']:
             if len(hashes) > 1:
                 first_list = hashes[0]
                 if all(hash_list == first_list for hash_list in hashes[1:]):
