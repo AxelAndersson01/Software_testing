@@ -1,3 +1,4 @@
+
 System Information:
 os: Windows
 os_version: 10.0.22631
@@ -15,11 +16,14 @@ set: 0b2125cf0c8137b55447e66ea95444977817f5ff9e66864ed2b3f4e77d5ee132
 nested: a91ea8a8b1c50d6d55efd17950518307628a2ae3ba10cff29e7b98e10568d35d
 custom_obj: Error: Can't pickle <class '__main__.TestClass'>: attribute lookup TestClass on __main__ failed
 recursive_list: 3ebda89318bbee412ade820e56f24939d2f5431c89b7723e33f55f1c479e6be5
+random_string: 4fea99edb9a0e55a0b297bef1db314cca60a7ded84396453492a83a3dc2443ba
+bytes: b7c1f138214a816baa3b056283a63c7a5beccc5435f610081dbe167bae33c0b6
+complex: 5b1b060515e40c665dd33983cfaf85081b51d0f15efd17f235c7e3a5807ceaec
 
 System Information:
 os: Windows
 os_version: 10.0.22631
-python_version: 3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)]
+python_version: 3.12.2 (tags/v3.12.2:6abddd9, Feb  6 2024, 21:26:36) [MSC v.1937 64 bit (AMD64)]
 
 Test Results:
 int: b7c8a7bf822f2bdf7aa1184fc92930c5991e8062007e075c072101275ed291ea
@@ -33,21 +37,6 @@ set: 0b2125cf0c8137b55447e66ea95444977817f5ff9e66864ed2b3f4e77d5ee132
 nested: a91ea8a8b1c50d6d55efd17950518307628a2ae3ba10cff29e7b98e10568d35d
 custom_obj: Error: Can't pickle <class '__main__.TestClass'>: attribute lookup TestClass on __main__ failed
 recursive_list: 3ebda89318bbee412ade820e56f24939d2f5431c89b7723e33f55f1c479e6be5
-
-System Information:
-os: Windows
-os_version: 10.0.22631
-python_version: 3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)]
-
-Test Results:
-int: b7c8a7bf822f2bdf7aa1184fc92930c5991e8062007e075c072101275ed291ea
-float: 777cde53ffac685d8e1280e20579b86bc322073bafad13894a07f82884d0cd86
-string: f9b0bd411548e23d8d072ea2b4df1e26e9d01961feda32377ad53cc5c8854474
-boolean: 5280fce43ea9afbd61ec2c2a16c35118af29eafa08aa2f5f714e54dc9cceb5ae
-list: 81ec9a1ffee5c216996ec963eae86e892ea6d4687ef30218204e477944fbc406
-dict: 4d7e57b3abced2234e562ed002e81b32d4212e9f21f2bb3330ca6ecc031f125c
-tuple: 200327faa4d41d1aa8426f5c8b40709a28924851f344150ca81066c703edf4ba
-set: 0b2125cf0c8137b55447e66ea95444977817f5ff9e66864ed2b3f4e77d5ee132
-nested: a91ea8a8b1c50d6d55efd17950518307628a2ae3ba10cff29e7b98e10568d35d
-custom_obj: Error: Can't pickle <class '__main__.TestClass'>: attribute lookup TestClass on __main__ failed
-recursive_list: 3ebda89318bbee412ade820e56f24939d2f5431c89b7723e33f55f1c479e6be5
+random_string: 4fea99edb9a0e55a0b297bef1db314cca60a7ded84396453492a83a3dc2443ba
+bytes: b7c1f138214a816baa3b056283a63c7a5beccc5435f610081dbe167bae33c0b6
+complex: 5b1b060515e40c665dd33983cfaf85081b51d0f15efd17f235c7e3a5807ceaec
