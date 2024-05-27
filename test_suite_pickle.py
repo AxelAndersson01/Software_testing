@@ -21,7 +21,14 @@ test_cases = {
     "set": {1, 2, 3},
     "nested": {"a": [1, 2, 3], "b": {"c": 3.14}},
     "custom_obj": type("TestClass", (object,), {"attr": 42})(),
-    "recursive_list": lambda: None
+    "recursive_list": lambda: None,
+    "random_string": "\n",
+    "bytes": bytes(15),
+    "complex": complex(1j),
+    "unicode": "こんにちは、世界！",
+    "none_value": None,
+    "utf-8_string": "Äpple",
+    "special_characters": "!@#$%^&*()"
 }
 
 # Create recursive data structure
