@@ -1,5 +1,5 @@
 def read_file_line_by_line(file_path):
-    data_types = ['int', 'float', 'string', 'boolean', 'list', 'dict', 'tuple', 'set', 'nested', 'custom_obj', 'recursive_list','random_string', 'bytes', 'complex', 'unicode', 'none_value', 'utf-8_string', 'special_characters']
+    data_types = ['int', 'float', 'string', 'boolean', 'list', 'dict', 'tuple', 'set', 'nested', 'custom_obj', 'recursive_list','random_string', 'bytes', 'complex', 'unicode','none_value', 'utf-8_string', 'special_characters']
     hash_lists = {data_type: [] for data_type in data_types}
 
     try:
