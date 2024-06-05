@@ -21,8 +21,8 @@ def read_file_line_by_line(file_path):
 
     return hash_lists
 
-# Usage
-file_path = "pickle_test_results.txt"  
+# Usage (Chage file path to which you want to test)
+file_path = "pickle_test_result_new_py_version.txt"  
 hash_lists = read_file_line_by_line(file_path)
 
 def comparer(hash_lists):
@@ -34,6 +34,9 @@ def comparer(hash_lists):
                     print(f"All {data_type} lists are the same.")
                 else:
                     print(f"Not all {data_type} lists are the same.")
+                    for i, hash_list in enumerate(hashes):
+                        if hash_list != first_list:
+                            print(f"Difference found at index {i}: {hash_list}")
             else:
                 print(f"There is only one {data_type} list.")
         else:
